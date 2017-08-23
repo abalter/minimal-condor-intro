@@ -1,0 +1,34 @@
+###################################
+#                                 #
+# Condor submit file for hello.py #
+# file name sleepytime.sub        #
+###################################
+
+executable              = sleepytime.sh
+log                     = sleep.$(Cluster).$(Process).log
+output                  = sleep_output.$(Cluster).$(Process).out
+error                   = sleep_errors.$(Cluster).$(Process).err
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+
+arguments                = 10
+queue 
+
+arguments                = 20
+queue 
+
+arguments                = 30
+queue 
+
+arguments                = 40
+queue 
+
+arguments                = 50
+queue 
+
+arguments                = 60
+queue 
+
+arguments                = 70
+queue 
+

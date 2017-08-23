@@ -1,0 +1,13 @@
+###################################
+#                                 #
+# Condor submit file for hello.py #
+# file name: hello.sub            #
+###################################
+
+executable      = hello.py
+
+output          = hello.$(Cluster).$(Process).out
+error           = hello.$(Cluster).$(Process).err
+log             = hello.$(Cluster).$(Process).log
+
+Queue 100
