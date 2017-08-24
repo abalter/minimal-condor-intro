@@ -1,8 +1,8 @@
-#!/bin/evn python
+#!/bin/env python
 
 ###   hello.py   ###
 
 print("Hello from Python")
 
 # remove the "#" on the next line to generate an error
-#this is an error
+this is an error

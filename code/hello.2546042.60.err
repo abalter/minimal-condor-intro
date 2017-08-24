@@ -1,0 +1,4 @@
+  File "/home/users/balter/simple-condor-intro/code/hello.py", line 8
+    this is an error
+                   ^
+SyntaxError: invalid syntax

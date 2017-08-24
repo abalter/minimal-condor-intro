@@ -12,4 +12,4 @@ echo "sleeping for $TIMETOWAIT seconds"
 echo “I’m awake now!”
 
 # remove the "#" on the next line to generate an error
-#this_is_not_a_command
+this_is_not_a_command

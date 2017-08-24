@@ -10,4 +10,4 @@ output          = hello.$(Cluster).$(Process).out
 error           = hello.$(Cluster).$(Process).err
 log             = hello.$(Cluster).$(Process).log
 
-Queue 100
+Queue 10
