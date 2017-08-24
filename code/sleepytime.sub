@@ -1,8 +1,8 @@
-###################################
-#                                 #
-# Condor submit file for hello.py #
-# file name sleepytime.sub        #
-###################################
+########################################
+#                                      #
+# Condor submit file for sleepytime.sh #
+# file name sleepytime.sub             #
+########################################
 
 executable              = sleepytime.sh
 log                     = sleep.$(Cluster).$(Process).log
