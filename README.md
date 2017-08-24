@@ -4,8 +4,4 @@ This is a simple tutorial that includes two executable files and two submit scri
 
 It also teaches some basic command line commands if you don't already know them.
 
-For questions and comments, please feel free to contact me:
-
-balter@ohsu.edu
-
-[Link to tutorial](http://gitlab.bcore.ohsu.edu/ohsu/simple-condor-intro/blob/master/a-simple-condor-intro.md)
+[Link to tutorial](https://github.com/abalter/minimal-condor-intro/blob/master/minimal-condor-intro.md)
