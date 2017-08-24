@@ -1,4 +1,4 @@
-# A simple introduction to condor submissions
+# A minimal introduction to condor submissions
 
 This is a simple tutorial that includes two executable files and two submit scripts for you to learn with.
 
