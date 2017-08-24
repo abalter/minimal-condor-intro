@@ -40,9 +40,9 @@ In the _code_ directory you will find the file _hello.py_.
     
 ## sleepytime.sh
 
-This is a simple program with a delay. We are doing this so that later when you 
-submit it to condor, it won't finish right away, and you will be able to see it 
-in the queue. Code [here](http://gitlab.bcore.ohsu.edu/ohsu/simple-condor-intro/blob/master/sleepytime.sh).
+In the code directory you will find _sleepytime.sh_. This is a simple program with a delay. 
+We are doing this so that later when you submit it to condor, it won't finish right away, 
+and you will be able to see it in the queue.
 
 `sleepytime.sh` is in a programming language known as shell scripting (which has 
 an assortment of flavors). Shell scripting is the basic toolkit for people who 
@@ -86,11 +86,11 @@ learn how to use it.
 
 ## hello.sub
 
-1. Submit `hello.sub`
+1. Submit _hello.sub_ which is 
 
-  This submit file (code [here](hello.sub)) is a minimal condor submit script 
-  that will log the process. Try it with the error commented out and not 
-  commented out.`queue 100` means submit it 100 times. 
+  This submit file is a minimal condor submit script that will log the process. 
+  Try it with the error commented out and not commented out.`queue 10` means submit 
+  it 10 times.
 
     condor_submit hello.sub
 
@@ -98,15 +98,15 @@ learn how to use it.
 
     condor_q
     
-1. Check the log files
+1. Check the log files using `cat` or `less`
 
 1. Repeat with/without the error
 
 ## sleepytime.sub
 
-This example (code [here](sleepytime.sub) demonstrates submitting an executable that takes an argument.
+This example demonstrates submitting an executable that takes an argument.
 
-1. Submit `sleepytime.sub`
+1. Submit _sleepytime.sub_
 
     condor_submit sleepytime.sub
 
