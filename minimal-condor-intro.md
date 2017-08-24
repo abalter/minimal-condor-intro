@@ -1,4 +1,4 @@
-# Introduction to Creating and Running Programs
+# A Very Minimal Introduction to Creating and Running Programs
 
 ## Task
 Run a simple python program. Don't worry if you don't know python. But you 
