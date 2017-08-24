@@ -1,9 +1,9 @@
 # A Very Minimal Introduction to Creating and Running Programs
 
-## Task
-Run a simple python program. Don't worry if you don't know python. But you 
-should be familiar with the concept of running a script in some language like 
-bash or R etc.
+## Task: Run a simple python program from the command line. 
+Don't worry if you don't know python. This exercise is just to make sure you know how
+to run a script or program from the command line. The method is the same whether the 
+program is written in a language such as shell (sh), R, Perl, etc.
 
 In the _code_ directory you will find the file _hello.py_.
 
@@ -15,7 +15,7 @@ In the _code_ directory you will find the file _hello.py_.
 
     python hello.py
     
-1. Make executable so you can run it without saying `python`
+1. Make the script an _executable_ so you can run it without saying `python`
 
     chmod 755 hello.py
     
@@ -38,18 +38,17 @@ In the _code_ directory you will find the file _hello.py_.
     
     cat err.txt
     
-## sleepytime.sh
-
+## Task: Run a program that takes an argument
 In the code directory you will find _sleepytime.sh_. This is a simple program with a delay. 
 We are doing this so that later when you submit it to condor, it won't finish right away, 
 and you will be able to see it in the queue.
 
-`sleepytime.sh` is in a programming language known as shell scripting (which has 
+`sleepytime.sh` is written in a programming language known as _shell scripting_ (which has 
 an assortment of flavors). Shell scripting is the basic toolkit for people who 
 use linux operating systems, and to an extent MacOS as well. This is also a very 
 common language for running bioinformatics pipelines.
 
-The important difference with this script is that the executable `sleepytime.sh` 
+The important difference with this script and _hello.py_ is that the executable `sleepytime.sh` 
 takes an _argument_ which is a piece of information the script needs to run. If 
 you are not familiar with bash scripting, you can google to find out more.
 
@@ -82,11 +81,9 @@ you are not familiar with bash scripting, you can google to find out more.
 `less` is another way to spit the output of a file to the console. Google it to 
 learn how to use it.
     
-# Submitting Jobs to Condor
+## TASK: Submit a Job to Condor
 
-## hello.sub
-
-1. Submit _hello.sub_ which is 
+1. Submit `hello.sub` (in the _code_ directory) to Condor
 
   This submit file is a minimal condor submit script that will log the process. 
   Try it with the error commented out and not commented out.`queue 10` means submit 
@@ -102,9 +99,10 @@ learn how to use it.
 
 1. Repeat with/without the error
 
-## sleepytime.sub
+## Taks: Submit a Job with Arguments
 
-This example demonstrates submitting an executable that takes an argument.
+This example demonstrates submitting an executable that takes an argument. Notice
+that here we have multiple `queue` lines, each with a different argument.
 
 1. Submit _sleepytime.sub_
 
@@ -113,6 +111,12 @@ This example demonstrates submitting an executable that takes an argument.
 1. Check the queue
 
     condor_q
+   
+  You can continue to monitor the queue and watch the files complete one at a time.
+  The files with the shortest sleep times may finish first, but it will depend on the
+  order in which the HTCondor scheduler actually sends the job to compute nodes. You can
+  give Condor additional information such as memory needed, CPU specs needed, time needed,
+  etc. that help it job out the tasks more efficiently.
     
 1. Read the log files.
 
