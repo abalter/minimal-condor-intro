@@ -81,7 +81,7 @@ you are not familiar with bash scripting, you can google to find out more.
 `less` is another way to spit the output of a file to the console. Google it to 
 learn how to use it.
     
-## TASK: Submit a Job to Condor
+## Task: Submit a Job to Condor
 
 1. Submit `hello.sub` (in the _code_ directory) to Condor
 
@@ -99,7 +99,7 @@ learn how to use it.
 
 1. Repeat with/without the error
 
-## Taks: Submit a Job with Arguments
+## Task: Submit a Job with Arguments
 
 This example demonstrates submitting an executable that takes an argument. Notice
 that here we have multiple `queue` lines, each with a different argument.
