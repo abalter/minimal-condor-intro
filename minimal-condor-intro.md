@@ -13,7 +13,11 @@ looking at
     - https://www.tecmint.com/linux-command-line-editors/
   
 Also, if you are a command line novice, I strongly suggest the following:
-  *  
+  *  https://www.codecademy.com/learn/learn-the-command-line
+  and perhaps
+  * http://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course
+  and
+  * https://www.codeschool.com/screencasts/unix-basics-part-1
 
 ## Task: Run a simple python program from the command line. 
 Don't worry if you don't know python. This exercise is just to make sure you know how
