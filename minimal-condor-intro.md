@@ -1,4 +1,4 @@
-# A Very Minimal Introduction to Creating and Running Programs and Submitting Them as Jobs to HTCondor
+# A Very Minimal Introduction to Running Programs and Submitting Them as Jobs to HTCondor
 
 **NOTE:** In order to do these exercises, you need:
 * Access to a cluster using the HTCondor scheduler. If you don't have that, you are probably not
