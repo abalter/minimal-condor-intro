@@ -1,8 +1,8 @@
-#!/usr/bin/python
+#!/bin/evn python
 
-# file name hello.py
+###   hello.py   ###
 
-print “Hello World!”
+print("Hello from Python")
 
 # remove the "#" on the next line to generate an error
-#this_is_an_error
+#this is an error
