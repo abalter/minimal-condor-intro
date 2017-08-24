@@ -1,5 +1,20 @@
 # A Very Minimal Introduction to Creating and Running Programs and Submitting Them as Jobs to HTCondor
 
+**NOTE:** In order to do these exercises, you need:
+* Access to a cluster using the HTCondor scheduler. If you don't have that, you are probably not
+looking at this anyway.
+* A program that connects you to a command line on that cluster. Ditto above.
+* The ability to use a command line editor. This means you don't open a separate program
+such as MS Word to create or edit files. You use a program that works right in your terminal
+console. If you don't already know how to do this, you will need to do a bit of learning. I suggest
+looking at 
+    - https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/
+  and
+    - https://www.tecmint.com/linux-command-line-editors/
+  
+Also, if you are a command line novice, I strongly suggest the following:
+  *  
+
 ## Task: Run a simple python program from the command line. 
 Don't worry if you don't know python. This exercise is just to make sure you know how
 to run a script or program from the command line. The method is the same whether the 
