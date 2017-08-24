@@ -1,4 +1,4 @@
-# A Very Minimal Introduction to Creating and Running Programs
+# A Very Minimal Introduction to Creating and Running Programs and Submitting Them as Jobs to HTCondor
 
 ## Task: Run a simple python program from the command line. 
 Don't worry if you don't know python. This exercise is just to make sure you know how
