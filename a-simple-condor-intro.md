@@ -1,12 +1,15 @@
 # Introduction to Creating and Running Programs
 
-## hello.py
-
+## Task
 Run a simple python program. Don't worry if you don't know python. But you 
 should be familiar with the concept of running a script in some language like 
 bash or R etc.
 
-See the code [here](http://gitlab.bcore.ohsu.edu/ohsu/simple-condor-intro/blob/master/hello.py).
+In the _code_ directory you will find the file _hello.py_.
+
+1. Look at the file
+
+    cat hello.py
 
 1. Run it
 
@@ -18,7 +21,7 @@ See the code [here](http://gitlab.bcore.ohsu.edu/ohsu/simple-condor-intro/blob/m
     
     ./hello.py
 
-1. Uncomment error 
+1. Uncomment error (line #8, see instructions in the file)
 
     ./hello.py
     
